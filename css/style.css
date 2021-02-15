@@ -1,4 +1,10 @@
-body {
-  font-family: 'Roboto Slab', serif;
-  font-family: 'Zilla Slab Highlight', cursive;
+
+*{
+  background-color: rgb(243, 227, 207);
+
 }
+
+table, th, td{
+  border: 1px solid black;
+}
+
