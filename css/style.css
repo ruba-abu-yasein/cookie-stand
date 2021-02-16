@@ -1,10 +1,19 @@
 
-*{
-  background-color: rgb(243, 227, 207);
-
+body{
+  background-color: rgb(226, 240, 247);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+h1{
+  background-color: rgb(245, 217, 147);
+  text-align: center;
+  color: rgb(54, 3, 3);
+}
+li{
+  background-color: rgb(235, 228, 241);
+}
+p{
+  color: rgb(133, 2, 89);
 }
 
-table, th, td{
-  border: 1px solid black;
-}
 
