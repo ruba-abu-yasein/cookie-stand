@@ -38,10 +38,14 @@ cities.prototype.getAvgCookiSale=function () {
         dataRowEl.appendChild(trEl2);
         trEl2.textContent=locationsTotale;
 
+        //const trEl3=document.createElement('td')
+        //dataRowEl.appendChild(trEl3);
+        //trEl3.textContent=
     }
     function footer(){
         let total=0
         const footerRow = document.createElement('tr');
+        footerRow.setAttribute('id','footer');
         tableEl.appendChild(footerRow);
         const thEl = document.createElement('th');
        footerRow.appendChild(thEl);
@@ -131,6 +135,30 @@ cities.prototype.getAvgCookiSale=function () {
         lima.getAvgCookiSale();
         lima.render();
         footer();
+
+        
+
+        const form = document.getElementById('cookiesForm');
+        form. addEventListener('submit', function(event){
+            event.preventDefault();
+            console.log(event.target);
+
+            const name = event.target.name.value;
+            const min =event.target.min.value;
+            const max = event.target.max.value;
+            const avg = event.target.avg.value;
+            
+
+            const input = new cities(name,min,max,avg);
+            const removeFooter=document.getElementById('footer')
+            removeFooter.remove()
+            input.getAvgCookiSale();
+
+            input.render();
+            
+            form.reset();
+            footer();
+        })
         
 
         
