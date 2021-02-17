@@ -15,5 +15,7 @@ li{
 p{
   color: rgb(133, 2, 89);
 }
-
+table, th, td {
+  border: 1px solid black;
+}
 
