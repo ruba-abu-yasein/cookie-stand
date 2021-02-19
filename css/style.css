@@ -1,21 +1,52 @@
-
+*{
+    font-family: 'Lobster', cursive;
+}
+header{
+    background-color: rgb(235, 171, 183);
+}
+header nav ul li {
+display: inline-block;
+ padding: 30px;
+ font-size: x-large;
+}
+header nav ul li a {
+    text-decoration: none;
+      }
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+#myp{
+padding-left: 200px;
+padding-right: 200px;
+}
+.img2{
+    width: 300px;
+}
+#door{
+    background-color: rgb(168, 59, 168);
+    font-size: 80px;
+    text-align: center;
+}
+#big{
+font-size: 30px;
+}
 body{
-  background-color: rgb(226, 240, 247);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
+    background-color: rgb(226, 228, 228);
 }
-h1{
-  background-color: rgb(245, 217, 147);
-  text-align: center;
-  color: rgb(54, 3, 3);
+
+h3{
+    text-align: center;
 }
-li{
-  background-color: rgb(235, 228, 241);
+#last{
+    /*padding-left: 400px;*/
+    margin-left: 400px;
+    border: rgb(163, 57, 57);
+    border-width: 5px;
+    border-style: solid;
+
 }
-p{
-  color: rgb(133, 2, 89);
-}
-table, th, td {
-  border: 1px solid black;
-}
+
+
+
 
